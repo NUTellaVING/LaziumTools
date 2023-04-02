@@ -145,7 +145,7 @@ function DiscordLib:Window(text)
 	Title.Size = UDim2.new(0, 192, 0, 23)
 	Title.Font = Enum.Font.Gotham
 	Title.Text = text
-	Title.TextColor3 = Color3.fromRGB(99, 102, 109)
+	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.TextSize = 13.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -361,7 +361,7 @@ function DiscordLib:Window(text)
 	SettingsOpenBtn.BackgroundTransparency = 1.000
 	SettingsOpenBtn.Position = UDim2.new(0.849161983, 0, 0.279069781, 0)
 	SettingsOpenBtn.Size = UDim2.new(0, 18, 0, 18)
-	SettingsOpenBtn.Font = Enum.Font.SourceSans
+	SettingsOpenBtn.Font = Enum.Font.GothamBold
 	SettingsOpenBtn.Text = ""
 	SettingsOpenBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 	SettingsOpenBtn.TextSize = 14.000
@@ -445,7 +445,7 @@ function DiscordLib:Window(text)
 	CloseSettingsBtn.Selectable = false
 	CloseSettingsBtn.Size = UDim2.new(0, 30, 0, 30)
 	CloseSettingsBtn.AutoButtonColor = false
-	CloseSettingsBtn.Font = Enum.Font.SourceSans
+	CloseSettingsBtn.Font = Enum.Font.GothamBold
 	CloseSettingsBtn.Text = ""
 	CloseSettingsBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 	CloseSettingsBtn.TextSize = 14.000
@@ -714,7 +714,7 @@ function DiscordLib:Window(text)
 		NotificationHolder.Position = UDim2.new(-0.00881057233, 0, -0.00266666664, 0)
 		NotificationHolder.Size = UDim2.new(0, 687, 0, 375)
 		NotificationHolder.AutoButtonColor = false
-		NotificationHolder.Font = Enum.Font.SourceSans
+		NotificationHolder.Font = Enum.Font.GothamBold
 		NotificationHolder.Text = ""
 		NotificationHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolder.TextSize = 14.000
@@ -1091,7 +1091,7 @@ function DiscordLib:Window(text)
 	MyAccountBtn.Position = UDim2.new(0.271232396, 0, 0.101614028, 0)
 	MyAccountBtn.Size = UDim2.new(0, 160, 0, 30)
 	MyAccountBtn.AutoButtonColor = false
-	MyAccountBtn.Font = Enum.Font.SourceSans
+	MyAccountBtn.Font = Enum.Font.GothamBold
 	MyAccountBtn.Text = ""
 	MyAccountBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 	MyAccountBtn.TextSize = 14.000
@@ -1182,7 +1182,7 @@ function DiscordLib:Window(text)
 		NotificationHolder.Position = UDim2.new(-0.00881057233, 0, -0.00266666664, 0)
 		NotificationHolder.Size = UDim2.new(0, 687, 0, 375)
 		NotificationHolder.AutoButtonColor = false
-		NotificationHolder.Font = Enum.Font.SourceSans
+		NotificationHolder.Font = Enum.Font.GothamBold
 		NotificationHolder.Text = ""
 		NotificationHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolder.TextSize = 14.000
@@ -1549,7 +1549,7 @@ function DiscordLib:Window(text)
 		NotificationHolderMain.Position = UDim2.new(0, 0, 0.0560000017, 0)
 		NotificationHolderMain.Size = UDim2.new(0, 681, 0, 374)
 		NotificationHolderMain.AutoButtonColor = false
-		NotificationHolderMain.Font = Enum.Font.SourceSans
+		NotificationHolderMain.Font = Enum.Font.GothamBold
 		NotificationHolderMain.Text = ""
 		NotificationHolderMain.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolderMain.TextSize = 14.000
@@ -2038,7 +2038,7 @@ function DiscordLib:Window(text)
 			ChannelBtn.Position = UDim2.new(0.24118948, 0, 0.578947365, 0)
 			ChannelBtn.Size = UDim2.new(0, 160, 0, 30)
 			ChannelBtn.AutoButtonColor = false
-			ChannelBtn.Font = Enum.Font.SourceSans
+			ChannelBtn.Font = Enum.Font.GothamBold
 			ChannelBtn.Text = ""
 			ChannelBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 			ChannelBtn.TextSize = 14.000
@@ -2068,7 +2068,7 @@ function DiscordLib:Window(text)
 			ChannelBtnTitle.Size = UDim2.new(0, 95, 0, 39)
 			ChannelBtnTitle.Font = Enum.Font.Gotham
 			ChannelBtnTitle.Text = text
-			ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
+			ChannelBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 			ChannelBtnTitle.TextSize = 14.000
 			ChannelBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
 			ServerChannelHolder.CanvasSize = UDim2.new(0, 0, 0, ServerChannelHolderLayout.AbsoluteContentSize.Y)
@@ -2589,7 +2589,7 @@ function DiscordLib:Window(text)
 				DropdownFrameBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				DropdownFrameBtn.BackgroundTransparency = 1.000
 				DropdownFrameBtn.Size = UDim2.new(0, 392, 0, 32)
-				DropdownFrameBtn.Font = Enum.Font.SourceSans
+				DropdownFrameBtn.Font = Enum.Font.GothamBold
 				DropdownFrameBtn.Text = ""
 				DropdownFrameBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 				DropdownFrameBtn.TextSize = 14.000
@@ -2692,7 +2692,7 @@ function DiscordLib:Window(text)
 					Item.BackgroundColor3 = Color3.fromRGB(42, 44, 48)
 					Item.Size = UDim2.new(0, 379, 0, 29)
 					Item.AutoButtonColor = false
-					Item.Font = Enum.Font.SourceSans
+					Item.Font = Enum.Font.GothamBold
 					Item.Text = ""
 					Item.TextColor3 = Color3.fromRGB(0, 0, 0)
 					Item.TextSize = 14.000
@@ -2783,7 +2783,7 @@ function DiscordLib:Window(text)
 					Item.BackgroundColor3 = Color3.fromRGB(42, 44, 48)
 					Item.Size = UDim2.new(0, 379, 0, 29)
 					Item.AutoButtonColor = false
-					Item.Font = Enum.Font.SourceSans
+					Item.Font = Enum.Font.GothamBold
 					Item.Text = ""
 					Item.TextColor3 = Color3.fromRGB(0, 0, 0)
 					Item.TextSize = 14.000
