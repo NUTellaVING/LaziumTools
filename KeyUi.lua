@@ -287,7 +287,7 @@ function DiscordLib:Window(text)
 
 	CloseBtn.MouseButton1Click:Connect(
 		function()
-            game:GetService("CoreGui"):FindFirstChild("LaziumTools"):Destroy()
+            game:GetService("CoreGui"):FindFirstChild("LaziumToolsKey"):Destroy()
 		end
 	)
 
